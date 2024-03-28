@@ -36,3 +36,78 @@
     transform: rotate(360deg);
   }
 }
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif; /* Use your preferred font */
+  line-height: 1.6;
+}
+
+header {
+  background-color: #333; /* Dark background color for header */
+  color: #fff; /* Text color */
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff; /* Link color */
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #333; /* Heading color */
+}
+
+ul {
+  list-style-type: none;
+}
+
+footer {
+  background-color: #333; /* Dark background color for footer */
+  color: #fff; /* Text color */
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+  header nav ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
